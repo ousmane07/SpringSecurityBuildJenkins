@@ -27,18 +27,20 @@ Là on voit que le network, les volumes et les containers ont bien été créé
 
 ![Capture 6](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/2.png?raw=true)
 
-On tape la commande docker ps pour pouvoir récupérer l'ID du container jenkins-devops
-On copie cet ID puis on tape la commande : docker logs IDCOPIé
-On aura ce mot de passe qui a été généré pour l'administration de jenkins
+On tape la commande docker ps pour pouvoir récupérer l'ID du container jenkins-devops...
+On copie cet ID puis on tape la commande : docker logs IDCOPIé...
+On aura ce mot de passe qui a été généré pour l'administration de jenkins...
 ![Capture 7](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/4.png?raw=true)
 
 Voici l'interface de la page d'administration de Jenkins une fois qu'on s'est connecté en tant qu'administrateur
 ![Capture 8](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/5.png?raw=true)
-On créé une nouvelle pipeline dans laquelle on va mettre notre lien Github...Sachant qu'on a fait les configurations de maven au préalable
+On créé une nouvelle pipeline dans laquelle on va mettre notre lien Github...
+Sachant qu'on a fait les configurations de maven au préalable
 ![Capture 9](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/6.png?raw=true)
 Sur la partie ScriptPath, on renseigne notre fichier jenkinsfile
 ![Capture 10](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/7.png?raw=true)
 Puis on lance le build
+Voici le résultat obtenu au niveau de la console:
 ![Capture 11](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/8.png?raw=true)
 ![Capture 12](https://github.com/ousmane07/SpringSecurityBuildJenkins/blob/master/captures/9.png?raw=true)
 
